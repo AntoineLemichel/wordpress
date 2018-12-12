@@ -1,0 +1,208 @@
+0000.000 (0) Opened log file at time: Wed, 12 Dec 2018 14:19:22 +0000 on http://localhost/~andrew/wordpress
+0000.009 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0 PHP: 7.2.10-0ubuntu1 (apache2handler, Linux andrew-MacBookPro 4.18.0-12-generic #13-Ubuntu SMP Wed Nov 14 15:17:05 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.18.10.1 WPLANG: fr_FR Server: Apache/2.4.34 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.2M | 4M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.017 (0) Free space on disk containing Updraft's temporary directory: 9073.5 MB
+0000.028 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: manual)
+0000.047 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.078 (0) Set semaphore last lock (fd) time to 2018-12-12 14:19:22
+0000.087 (0) Semaphore lock (fd) complete
+0000.112 (0) Backup run: resumption=0, nonce=459b6bda95e4, begun at=1544624362 (0s ago), job type=backup
+0000.129 (0) Scheduling a resumption (1) after 300 seconds (1544624662) in case this run gets aborted
+0000.169 (0) Checking if we have a zip executable available
+0000.177 (0) Testing: /usr/bin/zip
+0000.189 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.197 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.213 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.228 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.240 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.248 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.257 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.268 (0) Working binary zip found: /usr/bin/zip
+0000.282 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.288 (0) Creation of backups of directories: beginning
+0000.312 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.376 (0) Total entities for the zip file: 733 directories, 3557 files (0 skipped as non-modified), 60.6 MB
+0000.388 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.397 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.406 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.415 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.425 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 3557 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.754 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: size is now: 3.50 MB
+0000.774 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 600 files added (on-disk size: 3621.6 KB)
+0000.785 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 700 files added (on-disk size: 3621.6 KB)
+0000.795 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 800 files added (on-disk size: 3621.6 KB)
+0000.805 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 900 files added (on-disk size: 3621.6 KB)
+0000.816 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1000 files added (on-disk size: 3621.6 KB)
+0000.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 3557 files batched, 501 (1002) added so far); re-opening (prior size: 3621.6 KB)
+0001.202 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: size is now: 7.40 MB
+0001.223 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1100 files added (on-disk size: 7603.1 KB)
+0001.236 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1200 files added (on-disk size: 7603.1 KB)
+0001.248 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1300 files added (on-disk size: 7603.1 KB)
+0001.259 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1400 files added (on-disk size: 7603.1 KB)
+0001.269 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1500 files added (on-disk size: 7603.1 KB)
+0001.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 3557 files batched, 501 (1503) added so far); re-opening (prior size: 7603.1 KB)
+0001.389 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1600 files added (on-disk size: 8362.4 KB)
+0001.399 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1700 files added (on-disk size: 8362.4 KB)
+0001.409 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1800 files added (on-disk size: 8362.4 KB)
+0001.420 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 1900 files added (on-disk size: 8362.4 KB)
+0001.430 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2000 files added (on-disk size: 8362.4 KB)
+0001.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.6 MB, 3557 files batched, 501 (2004) added so far); re-opening (prior size: 8362.4 KB)
+0002.357 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: size is now: 12.80 MB
+0002.378 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2100 files added (on-disk size: 13122.5 KB)
+0002.389 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2200 files added (on-disk size: 13122.5 KB)
+0002.399 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2300 files added (on-disk size: 13122.5 KB)
+0002.412 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2400 files added (on-disk size: 13122.5 KB)
+0002.422 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2500 files added (on-disk size: 13122.5 KB)
+0002.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 3557 files batched, 501 (2505) added so far); re-opening (prior size: 13122.5 KB)
+0003.049 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: size is now: 16.10 MB
+0003.068 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2600 files added (on-disk size: 16517 KB)
+0003.079 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2700 files added (on-disk size: 16517 KB)
+0003.089 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2800 files added (on-disk size: 16517 KB)
+0003.104 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 2900 files added (on-disk size: 16517 KB)
+0003.113 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3000 files added (on-disk size: 16517 KB)
+0003.122 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 3557 files batched, 501 (3006) added so far); re-opening (prior size: 16517 KB)
+0003.269 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3100 files added (on-disk size: 17429.3 KB)
+0003.278 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3200 files added (on-disk size: 17429.3 KB)
+0003.289 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3300 files added (on-disk size: 17429.3 KB)
+0003.300 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3400 files added (on-disk size: 17429.3 KB)
+0003.310 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip.tmp: 3500 files added (on-disk size: 17429.3 KB)
+0003.319 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 3557 files batched, 501 (3507) added so far); re-opening (prior size: 17429.3 KB)
+0004.075 (0) Created plugins zip (0) - 20337.3 KB in 3.7 s (5425.8 KB/s) (sha1: f4c30c3b163627e0308406935b51fb71de3cba43, sha256: fad2862734344ec0f8f8f768431d43280b189dafc57074eb1c1b109a3c39c348)
+0004.093 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.121 (0) Total entities for the zip file: 142 directories, 539 files (0 skipped as non-modified), 13.3 MB
+0004.132 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.143 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.153 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.164 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.175 (0) Zip: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 539 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.532 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: size is now: 5.20 MB
+0004.592 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip.tmp: size is now: 6.90 MB
+0004.701 (0) Created themes zip (0) - 7039.7 KB in 0.6 s (11749.8 KB/s) (sha1: c0eef33639b0cf563dff5f52ed5d42a5ed3bcd18, sha256: d430d7e767f3d8094c90ef9541d536fd8955d196cda5f91b42a3b41431cecb09)
+0004.717 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.725 (0) Looking for candidates to backup in: /home/andrew/public_html/wordpress/wp-content/uploads
+0004.733 (0) finding files: 2018: adding to list (1)
+0004.741 (0) finding files: elementor: adding to list (2)
+0004.749 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.771 (0) Total entities for the zip file: 4 directories, 18 files (0 skipped as non-modified), 0.5 MB
+0004.795 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-uploads.zip.tmp: size is now: 0.50 MB
+0004.836 (0) Created uploads zip (0) - 552.9 KB in 0.1 s (7317.6 KB/s) (sha1: df0d1d8948443ae4f83cc30b79962b73e0f81357, sha256: 1273b8e3a28a97d12af51bb0bfc49b7be84635838a664aee51bc5f2f8d66485d)
+0004.852 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.860 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.869 (0) Looking for candidates to backup in: /home/andrew/public_html/wordpress/wp-content
+0004.882 (0) finding files: index.php: adding to list (1)
+0004.890 (0) finding files: upgrade: skipping: excluded by options
+0004.899 (0) finding files: themes: skipping: this is the themes directory
+0004.907 (0) finding files: uploads: skipping: this is the uploads directory
+0004.915 (0) finding files: updraft: skipping: this is the updraft directory
+0004.923 (0) finding files: plugins: skipping: this is the plugins directory
+0004.932 (0) finding files: languages: adding to list (2)
+0004.949 (0) Total entities for the zip file: 3 directories, 28 files (0 skipped as non-modified), 2.2 MB
+0005.104 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-others.zip.tmp: size is now: 0.60 MB
+0005.151 (0) Created others zip (0) - 620.6 KB in 0.2 s (2916 KB/s) (sha1: 16fc9ef20d874d05211f096b6dc79ed86df596e9, sha256: 39927ffee14cf1c1bb364b36be1a5f8a491f266f9a415d039a18f615f77c7d38)
+0005.187 (0) Saving backup status to database (elements: 8)
+0005.207 (0) Beginning creation of database dump (WordPress DB)
+0005.224 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0005.256 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `recette_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */ (truncated - 1243 bytes total)
+0005.265 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0005.296 (0) Table recette_options: Total expected rows (approximate): 332
+0005.394 (0) Table recette_options: Total rows added: 336 in 0.09 seconds
+0005.403 (0) Table recette_options: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_options.table.gz - 279.1 KB)
+0005.431 (0) Table recette_users: Total expected rows (approximate): 4
+0005.441 (0) Table recette_users: Total rows added: 4 in 0.00 seconds
+0005.449 (0) Table recette_users: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_users.table.gz - 0.7 KB)
+0005.473 (0) Table recette_usermeta: Total expected rows (approximate): 91
+0005.483 (0) Table recette_usermeta: Total rows added: 91 in 0.00 seconds
+0005.496 (0) Table recette_usermeta: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_usermeta.table.gz - 2.5 KB)
+0005.524 (0) Table recette_commentmeta: Total expected rows (approximate): 0
+0005.533 (0) Table recette_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.541 (0) Table recette_commentmeta: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_commentmeta.table.gz - 0.4 KB)
+0005.568 (0) Table recette_comments: Total expected rows (approximate): 2
+0005.577 (0) Table recette_comments: Total rows added: 2 in 0.00 seconds
+0005.586 (0) Table recette_comments: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_comments.table.gz - 0.9 KB)
+0005.614 (0) Table recette_links: Total expected rows (approximate): 0
+0005.624 (0) Table recette_links: Total rows added: 0 in 0.00 seconds
+0005.633 (0) Table recette_links: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_links.table.gz - 0.4 KB)
+0005.658 (0) Table recette_postmeta: Total expected rows (approximate): 279
+0005.671 (0) Table recette_postmeta: Total rows added: 279 in 0.01 seconds
+0005.680 (0) Table recette_postmeta: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_postmeta.table.gz - 9.5 KB)
+0005.708 (0) Table recette_posts: Total expected rows (approximate): 73
+0005.724 (0) Table recette_posts: Total rows added: 73 in 0.01 seconds
+0005.733 (0) Table recette_posts: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_posts.table.gz - 14.2 KB)
+0005.760 (0) Table recette_term_relationships: Total expected rows (approximate): 11
+0005.771 (0) Table recette_term_relationships: Total rows added: 11 in 0.00 seconds
+0005.781 (0) Table recette_term_relationships: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_term_relationships.table.gz - 0.4 KB)
+0005.823 (0) Table recette_term_taxonomy: Total expected rows (approximate): 3
+0005.834 (0) Table recette_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0005.845 (0) Table recette_term_taxonomy: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_term_taxonomy.table.gz - 0.5 KB)
+0005.871 (0) Table recette_termmeta: Total expected rows (approximate): 0
+0005.883 (0) Table recette_termmeta: Total rows added: 0 in 0.00 seconds
+0005.896 (0) Table recette_termmeta: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_termmeta.table.gz - 0.4 KB)
+0005.925 (0) Table recette_terms: Total expected rows (approximate): 3
+0005.935 (0) Table recette_terms: Total rows added: 4 in 0.00 seconds
+0005.944 (0) Table recette_terms: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_terms.table.gz - 0.4 KB)
+0005.970 (0) Table recette_yoast_seo_links: Total expected rows (approximate): 15
+0005.980 (0) Table recette_yoast_seo_links: Total rows added: 15 in 0.00 seconds
+0005.988 (0) Table recette_yoast_seo_links: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_yoast_seo_links.table.gz - 0.6 KB)
+0006.014 (0) Table recette_yoast_seo_meta: Total expected rows (approximate): 25
+0006.024 (0) Table recette_yoast_seo_meta: Total rows added: 25 in 0.00 seconds
+0006.033 (0) Table recette_yoast_seo_meta: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_yoast_seo_meta.table.gz - 0.4 KB)
+0006.062 (0) Table recette_limit_login: Total expected rows (approximate): 1
+0006.072 (0) Table recette_limit_login: Total rows added: 1 in 0.00 seconds
+0006.080 (0) Table recette_limit_login: finishing file (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_limit_login.table.gz - 0.4 KB)
+0006.106 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_options.table.gz (1/15): adding to final database dump
+0006.170 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_users.table.gz (2/15): adding to final database dump
+0006.179 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_usermeta.table.gz (3/15): adding to final database dump
+0006.189 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_commentmeta.table.gz (4/15): adding to final database dump
+0006.195 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_comments.table.gz (5/15): adding to final database dump
+0006.205 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_links.table.gz (6/15): adding to final database dump
+0006.213 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_postmeta.table.gz (7/15): adding to final database dump
+0006.224 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_posts.table.gz (8/15): adding to final database dump
+0006.238 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_term_relationships.table.gz (9/15): adding to final database dump
+0006.249 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_term_taxonomy.table.gz (10/15): adding to final database dump
+0006.257 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_termmeta.table.gz (11/15): adding to final database dump
+0006.265 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_terms.table.gz (12/15): adding to final database dump
+0006.274 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_yoast_seo_links.table.gz (13/15): adding to final database dump
+0006.283 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_yoast_seo_meta.table.gz (14/15): adding to final database dump
+0006.291 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db-table-recette_limit_login.table.gz (15/15): adding to final database dump
+0006.298 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db.gz: finished writing out complete database file (288 KB)
+0006.340 (0) Total database tables backed up: 15 (backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db.gz, size: 314817, sha256)
+0006.383 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.391 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.399 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.407 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.415 (0) backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.424 (0) Saving backup history. Total backup size: 28.2 MB
+0006.449 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.474 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.483 (0) No remote despatch: user chose no remote backup service
+0006.493 (0) Recording as successfully uploaded: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-plugins.zip
+0006.511 (0) Recording as successfully uploaded: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-themes.zip
+0006.531 (0) Recording as successfully uploaded: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-uploads.zip
+0006.548 (0) Recording as successfully uploaded: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-others.zip
+0006.564 (0) Recording as successfully uploaded: backup_2018-12-12-1519_MesRecettes_459b6bda95e4-db.gz
+0006.588 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=2
+0006.596 (0) Number of backup sets in history: 3; groups (db): 1
+0006.605 (0) Examining (for databases) backup set with group_id=0, nonce=459b6bda95e4, datestamp=1544624362 (Dec 12 2018 14:19:22)
+0006.611 (0) This backup set is the backup set just made, so will not be deleted.
+0006.611 (0) Examining (for databases) backup set with group_id=0, nonce=c15511979fbc, datestamp=1544609870 (Dec 12 2018 10:17:50)
+0006.611 (0) Examining (for databases) backup set with group_id=0, nonce=5f29d178be9e, datestamp=1544609656 (Dec 12 2018 10:14:16)
+0006.611 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.620 (0) Number of backup sets in history: 3; groups (files): 1
+0006.628 (0) Examining (for files) backup set with nonce=459b6bda95e4, datestamp=1544624362 (Dec 12 2018 14:19:22)
+0006.628 (0) This backup set is the backup set just made, so will not be deleted.
+0006.636 (0) This backup set is the backup set just made, so will not be deleted.
+0006.636 (0) This backup set is the backup set just made, so will not be deleted.
+0006.636 (0) This backup set is the backup set just made, so will not be deleted.
+0006.637 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.645 (0) Examining (for files) backup set with nonce=c15511979fbc, datestamp=1544609870 (Dec 12 2018 10:17:50)
+0006.645 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.654 (0) Examining (for files) backup set with nonce=5f29d178be9e, datestamp=1544609656 (Dec 12 2018 10:14:16)
+0006.654 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.662 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0006.692 (0) Resume backup (459b6bda95e4, 0): finish run
+0006.716 (0) Decremented the semaphore (fd) by 1
+0006.732 (0) Semaphore (fd) unlocked
+0006.740 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.767 (0) No email will/can be sent - the user has not configured an email address.
+0006.775 (0) The backup apparently succeeded and is now complete
